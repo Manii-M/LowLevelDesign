@@ -43,10 +43,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
@@ -99,6 +103,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/LowLevelDesign" />
       <path value="$PROJECT_DIR$/LowLevelDesign/LowLevelDesign" />
+      <path value="$PROJECT_DIR$/low-level-design-concepts" />
     </ignored-roots>
   </component>
 </project>
