@@ -4,32 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b13c842-7238-4a86-89b4-c7eeae87bf3d" name="Default Changelist" comment="" />
+    <list default="true" id="adbcaeb9-23ca-4976-bb5f-bcb6740a8c2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LowLevelDesign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LowLevelDesign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Eagle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Interfaces/Flyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KingFisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Seller.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
-  <component name="ProjectId" id="1n323OYb6d18LYa2olnj0Li1auQ" />
+  <component name="ProjectId" id="1n8xdtwkG72sMJRnwn0Bl62AJvy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,52 +42,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Bird">
-    <configuration name="Bird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bird" />
+  <component name="RunManager">
+    <configuration name="SaveEmployeesMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.SOLID.singleResponsibilityPrinciple.before.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eagle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eagle" />
-      <module name="LowLevelDesign" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Bird" />
-        <item itemvalue="Application.Eagle" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b13c842-7238-4a86-89b4-c7eeae87bf3d" name="Default Changelist" comment="" />
-      <created>1610604259468</created>
+      <changelist id="adbcaeb9-23ca-4976-bb5f-bcb6740a8c2b" name="Default Changelist" comment="" />
+      <created>1610785619033</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610604259468</updated>
+      <updated>1610785619033</updated>
     </task>
     <servers />
   </component>
@@ -97,13 +81,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/LowLevelDesign" />
-      <path value="$PROJECT_DIR$/LowLevelDesign/LowLevelDesign" />
-      <path value="$PROJECT_DIR$/low-level-design-concepts" />
-    </ignored-roots>
   </component>
 </project>

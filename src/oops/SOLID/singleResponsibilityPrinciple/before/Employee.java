@@ -9,8 +9,8 @@ import java.nio.file.Paths;
 Models an employee form a business perspective
  */
 public abstract class Employee {
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
     private int monthlyIncome;
     private int nbHoursPerWeek;
 
@@ -63,30 +63,32 @@ public abstract class Employee {
         return this.firstName + " " + this.lastName;
     }
 
+    private String serializeData(Employee employee)//only serialize the data and return the serialized string to follow the single responsibility principle
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.append("### EMPLOYEE RECORD ####");
+        sb.append(System.lineSeparator());
+        sb.append("NAME: ");
+        sb.append(employee.firstName + " " + employee.lastName);
+        sb.append(System.lineSeparator());
+        sb.append("POSITION: ");
+        sb.append(employee.getClass().getTypeName());
+        sb.append(System.lineSeparator());
+        sb.append("EMAIL: ");
+        sb.append(employee.getEmail());
+        sb.append(System.lineSeparator());
+        sb.append("MONTHLY WAGE: ");
+        sb.append(employee.monthlyIncome);
+        sb.append(System.lineSeparator());
+        return sb.toString();
+    }
+
     public  void save(){
         try {
-        	Employee employee =this;
-            StringBuilder sb = new StringBuilder();
-            sb.append("### EMPLOYEE RECORD ####");
-            sb.append(System.lineSeparator());
-            sb.append("NAME: ");
-            sb.append(employee.firstName + " " + employee.lastName);
-            sb.append(System.lineSeparator());
-            sb.append("POSITION: ");
-            sb.append(employee.getClass().getTypeName());
-            sb.append(System.lineSeparator());
-            sb.append("EMAIL: ");
-            sb.append(employee.getEmail());
-            sb.append(System.lineSeparator());
-            sb.append("MONTHLY WAGE: ");
-            sb.append(employee.monthlyIncome);
-            sb.append(System.lineSeparator());
-
-            Path path = Paths.get(employee.getFullName()
-                    .replace(" ","_") + ".rec");
-            Files.write(path, sb.toString().getBytes());
-
-            System.out.println("Saved employee " + employee.toString());
+            String employeeData = serializeData(this);
+            Path path = Paths.get(this.getFullName().replace(" ","_") + ".rec");
+            Files.write(path, employeeData.getBytes());
+            System.out.println("Saved employee " + this.toString());
         } catch (IOException e){
             System.out.println("ERROR: Could not save employee. " + e);
         }
