@@ -5,36 +5,153 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adbcaeb9-23ca-4976-bb5f-bcb6740a8c2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LowLevelDesign.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LowLevelDesign.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Eagle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Interfaces/Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KingFisher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Seller.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LowLevelDesign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/lsp/stack/before/StackUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/taxes/FullTimeEmployeeTaxcalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/taxes/InternTaxcalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/taxes/PartTimeEmployeeTaxcalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/taxes/TaxCalculatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassConcept/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassConcept/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassConcept/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassConcept/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassConcept/Interfaces/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassConcept/Interfaces/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassConcept/KingFisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassConcept/KingFisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassConcept/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassConcept/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/employees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/employees/FullTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/employees/FullTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/employees/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/employees/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/employees/PartTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/employees/PartTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/main/PayEmployeesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/main/PayEmployeesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/notification/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/notification/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/payments/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/payments/PaymentProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/repositories/EmployeeFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/repositories/EmployeeFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/DependencyInversionPrinciple/before/serielizer/EmployeeFileSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/DependencyInversionPrinciple/before/serielizer/EmployeeFileSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/lsp/stack/before/StackWrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/lsp/stack/before/StackWrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/Business_Requirement1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/Business_Requirement1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/Business_Requirement2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/Business_Requirement2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/client/CalculateTaxesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/client/CalculateTaxesClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/employees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/employees/FullTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/employees/FullTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/employees/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/employees/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/employees/PartTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/employees/PartTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/persistence/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/persistence/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/openClosePrinciple/before/taxes/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/openClosePrinciple/before/taxes/TaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/singleResponsibilityPrinciple/before/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/singleResponsibilityPrinciple/before/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/FullTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/singleResponsibilityPrinciple/before/FullTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/PartTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/singleResponsibilityPrinciple/before/PartTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/SOLID/singleResponsibilityPrinciple/before/SaveEmployeesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/SOLID/singleResponsibilityPrinciple/before/SaveEmployeesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction/object/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction/object/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction/object/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction/object/Client2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction/object/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction/object/Currency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction/object/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction/object/Money.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction/object/MoneyBadDesign.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction/object/MoneyBadDesign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction1/object/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction1/object/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction1/object/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction1/object/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/abstraction1/object/MoneyBadDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/abstraction1/object/MoneyBadDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/adapter/AdapterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/adapter/AdapterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/adapter/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/adapter/EmployeeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/adapter/employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/adapter/employees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/adapter/employees/EmployeeCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/adapter/employees/EmployeeCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/adapter/employees/EmployeeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/adapter/employees/EmployeeDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/adapter/employees/EmployeeLdap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/adapter/employees/EmployeeLdap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/BridgeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/BridgeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/Detail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/formatters/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/formatters/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/formatters/HtmlFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/formatters/HtmlFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/formatters/PrintFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/formatters/PrintFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/resources/MovieResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/resources/MovieResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/bridge/resources/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/bridge/resources/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/builder/SubWaySandwichOrderV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/builder/SubWaySandwichOrderV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/builder/SubWaySandwichOrderV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/builder/SubWaySandwichOrderV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/builder/SubWaySandwichOrderV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/builder/SubWaySandwichOrderV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/beverages/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/beverages/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/beverages/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/beverages/Cappuccino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/beverages/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/beverages/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/beverages/decorators/BeverageDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/beverages/decorators/BeverageDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/beverages/decorators/ChocolateDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/beverages/decorators/ChocolateDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/beverages/decorators/EspressoShotDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/beverages/decorators/EspressoShotDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/visualComponents/TextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/visualComponents/TextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/decorator/visualComponents/VisualComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/decorator/visualComponents/VisualComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/FactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/FactoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/WebsiteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/WebsiteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/WebsiteType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/WebsiteType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/AboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/AboutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/CommentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/CommentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/ItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/ItemPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/PostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/PostPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/websites/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/websites/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/websites/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/websites/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/factory/websites/Website.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/factory/websites/Website.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/flyweight/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/flyweight/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/flyweight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/flyweight/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/flyweight/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/flyweight/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/flyweight/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/flyweight/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/flyweight/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/flyweight/items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/observer/MessageStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/observer/MessageStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/observer/ObserverDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/observer/ObserverDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/observer/subscribers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/observer/subscribers/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/observer/subscribers/PhoneClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/observer/subscribers/PhoneClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/observer/subscribers/TabletClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/observer/subscribers/TabletClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/prototype/PrototypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/prototype/PrototypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/prototype/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/prototype/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/prototype/items/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/prototype/items/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/prototype/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/prototype/items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/prototype/items/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/prototype/items/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/proxy/AirtelInternet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/proxy/AirtelInternet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/proxy/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/proxy/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/proxy/Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/proxy/Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/proxy/InternetProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/proxy/InternetProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/proxy/NetworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/proxy/NetworkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/proxy/ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/proxy/ProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/singleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/singleton/SQLConnectionNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/singleton/SQLConnectionNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/singleton/SQLConnectionSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/singleton/SQLConnectionSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/strategy/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/strategy/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/strategy/StrategyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/strategy/StrategyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/strategy/validationStrategies/AmexStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/strategy/validationStrategies/AmexStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/strategy/validationStrategies/ValidationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/strategy/validationStrategies/ValidationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/designPatterns/strategy/validationStrategies/VisaStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oops/designPatterns/strategy/validationStrategies/VisaStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1n8xdtwkG72sMJRnwn0Bl62AJvy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,23 +159,77 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration name="SaveEmployeesMain" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CalculateTaxesClient">
+    <configuration name="Bird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassConcept.Bird" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.SOLID.singleResponsibilityPrinciple.before.*" />
-          <option name="ENABLED" value="false" />
+          <option name="PATTERN" value="ClassConcept.*" />
+          <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculateTaxesClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.SOLID.openClosePrinciple.before.client.CalculateTaxesClient" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.SOLID.openClosePrinciple.before.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaveEmployeesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.SOLID.singleResponsibilityPrinciple.before.SaveEmployeesMain" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.SOLID.singleResponsibilityPrinciple.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackWrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.SOLID.lsp.stack.before.StackWrong" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.SOLID.lsp.stack.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalculateTaxesClient" />
+        <item itemvalue="Application.StackWrong" />
+        <item itemvalue="Application.Bird" />
+        <item itemvalue="Application.SaveEmployeesMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,5 +252,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
